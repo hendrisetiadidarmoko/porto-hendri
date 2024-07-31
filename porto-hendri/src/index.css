@@ -112,3 +112,40 @@ body{
   background-color: rgba(255, 255, 255, 0.1);
   color: rgba(255, 255, 255, 0.87);
 }
+
+.card-porto .card-body .d-flex{
+  flex-wrap: wrap;
+}
+
+.experience{
+  border: 1px solid #F27400;
+  background-color: rgba(242, 116, 0, 0.1);
+  
+}
+
+.card-text:last-child {
+  margin-bottom:auto;
+}
+
+.border-skill{
+  border: 1px solid #F27400;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skill .d-flex {
+  flex-wrap: wrap;
+}
+
+.skill .card-text {
+  border: 1px solid #F27400;
+  background-color: rgba(242, 116, 0, 0.1);
+  padding: 0.5rem 1rem; 
+  word-wrap: break-word; 
+  box-sizing: border-box;
+  text-align: center;
+}
